@@ -27,7 +27,7 @@ const LandingPage = (): JSX.Element => {
         <div className='font-mono'>
           <button
             data-testid='testApiCall'
-            className='text-emerald-500 pb-4'
+            className='text-emerald-500 mb-4'
             onClick={onTestAPICall}
           >
             [GET Test Data]
@@ -41,7 +41,7 @@ const LandingPage = (): JSX.Element => {
             ))}
           </ul>
 
-          <button className='text-red-500 pt-4' onClick={removeData}>
+          <button className='text-red-500 mt-4' onClick={removeData}>
             [REMOVE Test Data]
           </button>
         </div>
