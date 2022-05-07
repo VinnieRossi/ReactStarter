@@ -21,13 +21,13 @@ const LandingPage = (): JSX.Element => {
   };
 
   return (
-    <div className='h-screen  text-center bg-gray-800'>
+    <div className='h-screen text-center bg-gray-800'>
       <div className='flex flex-col items-center justify-center h-screen text-2xl'>
         <h1 className='mb-4 text-5xl text-indigo-500'>Landing Page</h1>
         <div className='font-mono'>
           <button
             data-testid='testApiCall'
-            className='text-emerald-500 mb-4'
+            className='mb-4 text-emerald-500'
             onClick={onTestAPICall}
           >
             [GET Test Data]
@@ -41,7 +41,7 @@ const LandingPage = (): JSX.Element => {
             ))}
           </ul>
 
-          <button className='text-red-500 mt-4' onClick={removeData}>
+          <button className='mt-4 text-red-500' onClick={removeData}>
             [REMOVE Test Data]
           </button>
         </div>
