@@ -1,7 +1,7 @@
 # Running
 
-Run `pn dev` to spin up the local UI
-Run `pn css` to have the css auto-compile for fash refresh
+- Run `pn dev` to spin up the local UI
+- Run `pn css` to have the css auto-compile for fash refresh
 
 ## Expanding the ESLint configuration
 
